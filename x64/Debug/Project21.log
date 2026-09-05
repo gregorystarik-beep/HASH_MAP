@@ -1,2 +1,9 @@
-﻿  Source.cpp
-  Project21.vcxproj -> C:\Users\grego\OneDrive\Desktop\repos\Project21\x64\Debug\Project21.exe
+﻿C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(551,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Project21.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Hash_map.c
+  Source.c
+C:\Users\grego\OneDrive\Desktop\repos\Project21\Project21\Source.c(10,47): warning C4047: 'function': 'void (__cdecl *)(void *)' differs in levels of indirection from 'void *(__cdecl *)(void *)'
+C:\Users\grego\OneDrive\Desktop\repos\Project21\Project21\Source.c(10,47): warning C4024: 'create_hash': different types for formal and actual parameter 4
+C:\Users\grego\OneDrive\Desktop\repos\Project21\Project21\Source.c(17,22): warning C4022: 'remove_hash': pointer mismatch for actual parameter 2
+  Generating Code...
+C:\Users\grego\OneDrive\Desktop\repos\Project21\Project21\Hash_map.c(19,1): warning C4716: 'print_func': must return a value
+  Project21.vcxproj -> C:\Users\grego\OneDrive\Desktop\repos\Project21\x64\Debug\HASH_MAP.exe

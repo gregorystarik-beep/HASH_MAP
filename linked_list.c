@@ -1,5 +1,5 @@
 #include "linked_list.h"
-void Create_Node(Node** head, int x)//creates nodes for linked list
+void Create_Node(Node** head, void* x)//creates nodes for linked list
 {
 	Node* new_node = (Node*)malloc(sizeof(Node));
 	if (new_node == NULL)

@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\linked_list.obj",
+            "outputs": [
+                "x64\\Debug\\linked_list.h.obj.dt.module.json",
+                "x64\\Debug\\linked_list.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

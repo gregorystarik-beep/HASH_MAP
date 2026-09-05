@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "Hash_map.h"
 #include "linked_list.h"
+#include "Hash_map.h"
 int main()
 {
 	Hashtable* my_map = NULL;
@@ -14,7 +14,7 @@ int main()
 	}
 	printf("before rermovel\n");
 	print_hash(my_map);
-	remove_hash(my_map, 3);
+	remove_hash(my_map, &(int){3});
 	printf("after\n");
 	print_hash(my_map);
 	free_hash(my_map);

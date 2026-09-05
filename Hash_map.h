@@ -1,6 +1,5 @@
 #pragma once
 #include "linked_list.h"
-#define HASH_REMOVE(hash,val)remove_hash(hash,&(typeof(val)){val})//defines the veriable before compile with typeof
 typedef struct Hashtable
 {
 	int size;
